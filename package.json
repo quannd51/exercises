@@ -1,0 +1,18 @@
+{
+  "name": "idigo-test",
+  "version": "0.0.1",
+  "description": "idigo test",
+  "author": "Quan.ND",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:ci": "jest --maxWorkers=2 --coverage --bail",
+    "test:watch": "jest --watch"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}
